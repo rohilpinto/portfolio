@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Image src="/logo.png" alt="logo" width={100} height={100} />
           </div>
           <div className="ml-5 mt-5">
-            <Button variant="outline" size="icon" >
+            <Button variant="outline" size="icon">
               <HamburgerMenuIcon />
             </Button>
           </div>
