@@ -13,7 +13,7 @@ import Spline from "@splinetool/react-spline";
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center text-center bg-black h-screen text-white p-4">
-      <div className="realtive z-10 flex flex-col-reverse lg:flex-row gap-10 justify-center items-center backdrop-contrast-[1.5] backdrop-blur-xl p-5 rounded">
+      <div className="realtive z-10 flex flex-col-reverse lg:flex-row gap-10 justify-center items-center backdrop-contrast-[1.4] backdrop-blur-2xl p-5 rounded-2xl">
         <div className="max-w-[800px] flex flex-col gap-5 text-center lg:text-left">
           <h1 className="text-4xl font-bold">Hello! I&lsquo;m Rohil</h1>
           <p className="m-auto font-light">
