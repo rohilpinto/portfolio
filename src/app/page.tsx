@@ -1,14 +1,19 @@
-"use client";
+// "use client";
 
 import { Suspense } from "react";
 import { ARR_OF_SOCIAL_MEDIA } from "@/utils/constants";
 import { OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import Image from "next/image";
-import SplineLine from "@/components/SplineLine";
+import SplineLine from "@/components/SplineAnimation";
 import Spline from "@splinetool/react-spline";
+import SplineAnimation from "@/components/SplineAnimation";
 
 // https://codepen.io/jh3y/pen/XWGrGJL
+
+export const metadata = {
+  title: "Rohil Pinto",
+};
 
 export default function Home() {
   return (
@@ -32,13 +37,7 @@ export default function Home() {
         <Image src="/profile-picture.jpg" width={250} height={250} alt="profile picture" className="rounded transition duration-300 ease-in-out hover:scale-[1.02]" />
       </div>
 
-      {/* <Suspense fallback={<>Loading...</>}>
-        <Canvas shadows flat linear>
-          <SplineLine />
-        </Canvas>
-      </Suspense> */}
-      <Spline scene="https://prod.spline.design/oiAuKV4eM6M0QsUQ/scene.splinecode" className="absolute " />
-      {/* <Spline scene="https://prod.spline.design/KrZksOZWrKg2VZ2f/scene.splinecode" className="absolute" /> */}
+      <SplineAnimation scene="https://prod.spline.design/a6xaoAbhO2StvX-7/scene.splinecode" className="absolute" />
     </main>
   );
 }
