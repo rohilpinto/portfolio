@@ -23,7 +23,7 @@ export default function Home() {
         <div className="max-w-[800px] flex flex-col gap-5 text-center lg:text-left">
           <h1 className="text-4xl font-bold">Hello! I&lsquo;m Rohil</h1>
           <p className="m-auto font-light">
-            A seasoned React and Next.js developer based in India. I specialize in creang efficient web applications, incorporating smooth animations with Framer Motion. My skills encompass React.js, Next.js, Framer Motion, UI design, and seamless API integration. <br /> <br /> Let&lsquo;s
+            A seasoned React and Next.js developer based in India. I specialize in creating efficient web applications, incorporating smooth animations with Framer Motion. My skills encompass React.js, Next.js, Framer Motion, UI design, and seamless API integration. <br /> <br /> Let&lsquo;s
             collaborate to elevate your project with my expertise and commitment to excellence!
           </p>
           <div className="flex gap-2 justify-center lg:justify-start">
