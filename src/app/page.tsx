@@ -13,6 +13,7 @@ import SplineAnimation from "@/components/SplineAnimation";
 
 export const metadata = {
   title: "Rohil Pinto",
+  description: "Welcome to my portfolio website!",
 };
 
 export default function Home() {
