@@ -19,7 +19,7 @@ export const metadata = {
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center text-center bg-black h-screen text-white p-4">
-      <div className="realtive z-10 flex flex-col-reverse lg:flex-row gap-10 justify-center items-center backdrop-contrast-[1.4] backdrop-blur-2xl p-5 rounded-2xl">
+      <div className="realtive z-20 flex flex-col-reverse lg:flex-row gap-10 justify-center items-center backdrop-contrast-[1.4] backdrop-blur-2xl p-5 rounded-2xl border border-[5px]">
         <div className="max-w-[800px] flex flex-col gap-5 text-center lg:text-left">
           <h1 className="text-4xl font-bold">Hello! I&lsquo;m Rohil</h1>
           <p className="m-auto font-light">
@@ -38,7 +38,7 @@ export default function Home() {
         <Image src="/profile-picture.jpg" width={250} height={250} alt="profile picture" className="rounded transition duration-300 ease-in-out hover:scale-[1.02]" />
       </div>
 
-      <SplineAnimation scene="https://prod.spline.design/a6xaoAbhO2StvX-7/scene.splinecode" className="absolute" />
+      <SplineAnimation scene="https://prod.spline.design/a6xaoAbhO2StvX-7/scene.splinecode" className="absolute z-10" />
     </main>
   );
 }
